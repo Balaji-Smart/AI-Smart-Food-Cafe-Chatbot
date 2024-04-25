@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+site-title {
+   font-size: 29px; 
+    font-weight: bold; 
+    font-family: verdana; 
+    color: #333; 
+    
+}
+
+header {
+    background-color: blue;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    text-align: center;
+    padding: 20px;
+    width: 1150px;
+    color: white;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px; /* Add curved edges to all corners */
+}
+
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+section {
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); /* Increase the blur radius to 20px */
+}
+
+
+section h2 {
+    color: #ff5733;
+font-size:30px;
+}
+
+footer {
+    background-color: #ff5733;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.chat-bot {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    z-index: 1000; 
+border-radius: 15px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px; /* or any other value */
+    padding: 0 20px; /* adding 20px of padding */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+section img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+
+nav a {
+    color: white; /* Default color of the links */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+font-family: Times New Roman;
+}
+
+nav a:hover {
+    color: blue; /* Color of the links when hovered */
+}
+#menu {
+    text-align: center; /* Center the heading */
+
+background: linear-gradient(69.5deg, rgb(251, 0, 0) -0.5%, rgb(3, 10, 252) 97.4%);
+
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column; /* Display items in a column layout */
+    align-items: center; /* Center items horizontally */
+    gap: 30px; /* Spacing between items */
+}
+
+.menu-item {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Align items vertically */
+    margin-bottom: 20px; /* Add space between items */
+    width: 40%; /* Make each item occupy 40% of the width of the container */
+    text-align: left; /* Align the content to the left */
+    margin-right: 42%; /* Add some space between items */
+}
+
+.menu-item img {
+    max-width: 450px; /* Increase the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 50px; /* Add space between image and text */
+ border-radius: 20px;
+transition: transform 0.3s ease;
+}
+
+.menu-item img:hover {
+    transform: scale(1.1); /* Scale the image to 110% on hover */
+}
+
+
+.menu-item-name {
+    flex-grow: 3; /* Allow the text to grow and take up remaining space */
+    font-size: 30px; /* Set font size to 30px */
+    font-weight: bold; /* Make the text bold */
+    font-style: italic; /* Apply italic font style */
+    font-family: Arial, sans-serif; /
+}
+
+.abc{
+
+font-size: 25px;
+font-weight: bold;
+font-family: Calibri;
+}
+
+#location{
+background: radial-gradient(371px at 2.9% 14.3%, rgb(255, 0, 102) 0%, rgb(80, 5, 35) 100.7%);
+}
+
+#contactus{
+background: radial-gradient(371px at 2.9% 14.3%, rgb(255, 0, 102) 0%, rgb(80, 5, 35) 100.7%);
+}
+
+#aboutus{
+background: radial-gradient(371px at 2.9% 14.3%, rgb(255, 0, 102) 0%, rgb(80, 5, 35) 100.7%);
+}
+body {
+ background-image: linear-gradient(to right, #0099f7, #f11712);
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+</style>
+</head>
+<body>
+	<div class="container">
+
+    <header>
+<h1 class="site-title" style="font-size:37px;font-family: Castellar; background: linear-gradient(to right, #ff0000, #ffff00); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Smart Food Cafe</h1>
+
+<br>
+        <nav>
+            <a href="#home">HOME</a> |
+            <a href="#menu">MENU</a> |
+            <a href="#location">LOCATION</a> |
+            <a href="#aboutus">ABOUT US</a> |
+            <a href="#contactus">CONTACT US</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <img src="design.jpg">
+    </div>
+</section>
+<section id="menu">
+    <h2>Our Menu</h2><br><br>
+    <div class="grid-container">
+        <div class="menu-item">
+            <img src="biryani.jpg" alt="Menu item 1">
+            <span class="menu-item-name">Biryani</span>
+        </div>
+        <div class="menu-item">
+            <img src="chole.jpg" alt="Menu item 2">
+            <span class="menu-item-name">Chole Bhature</span>
+        </div>
+        <div class="menu-item">
+            <img src="dosa.jpg" alt="Menu item 3">
+            <span class="menu-item-name">Masala Dosa</span>
+        </div>
+        <div class="menu-item">
+            <img src="rava.jpg" alt="Menu item 4">
+            <span class="menu-item-name">Rava Dosa</span>
+        </div>
+        <div class="menu-item">
+            <img src="pav.jpg" alt="Menu item 5">
+            <span class="menu-item-name">Pav Bhaji</span>
+        </div>
+        <div class="menu-item">
+            <img src="pizza.jpg" alt="Menu item 6">
+            <span class="menu-item-name">Pizza</span>
+        </div>
+        <div class="menu-item">
+            <img src="samosa.jpg" alt="Menu item 7">
+            <span class="menu-item-name">Samosa</span>
+        </div>
+        <div class="menu-item">
+            <img src="vada.jpg" alt="Menu item 8">
+            <span class="menu-item-name">VadaPav</span>
+        </div>
+    </div>
+</section>
+
+
+
+    
+      
+	
+
+
+
+
+
+    <section id="location">
+        <h2>Location</h2>
+        <p class="abc">#28,3rd Cross,MG Road, Bengaluru </p>
+        <!-- Add map widget here -->
+    </section>
+
+    <section id="contactus">
+        <h2>Contact Us</h2>
+        <p class="abc">Got questions? Want to place an order? Call us at +91 791234567 or email us at smartfoodcafe@gmail.com</p>
+    </section>
+
+<section id="aboutus">
+        <h2>About Us</h2>
+        <p class="abc">Welcome to Smart Food Cafe, where passion for food meets excellence in taste!
+
+At Smart Food Cafe, we believe in serving more than just food; we serve experiences. Our journey began with a simple idea: to create a space where people can come together to enjoy delicious food, good company, and unforgettable moments. What started as a humble cafe has now grown into a beloved destination for food enthusiasts and families alike.
+
+<br /><br /> Our commitment to quality is evident in every dish we serve. We source the freshest ingredients, handpick the finest spices, and craft each recipe with love and care. From traditional favorites to innovative culinary creations, our menu offers something to satisfy every craving.<br /><br />
+
+But Smart Food Cafe is more than just a place to eat; it's a community hub where friendships are forged, conversations flow freely, and memories are made. Our cozy ambiance, friendly staff, and warm hospitality ensure that every visit is a delightful experience.<br /><br />
+
+We take pride in our role as a responsible member of the community. Sustainability is at the heart of everything we do. We strive to minimize our environmental footprint by reducing waste, supporting local farmers, and embracing eco-friendly practices. Every decision we make is guided by our commitment to a healthier planet.<br /><br />
+
+Our dedication to excellence has earned us the trust and loyalty of our customers. Whether you're grabbing a quick bite on-the-go, enjoying a leisurely meal with family, or hosting a special event, Smart Food Cafe is here to cater to your needs. We value your feedback and continually strive to exceed your expectations.
+
+<br /><br />Thank you for choosing Smart Food Cafe as your go-to destination for delicious food and memorable moments. We look forward to welcoming you and sharing our passion for food with you!</p>
+    </section>
+
+	
+<script>
+    setTimeout(function() {
+        var iframe = document.createElement('iframe');
+        iframe.className = 'chat-bot';
+        iframe.width = '350';
+        iframe.height = '430';
+        iframe.allow = 'microphone;';
+        iframe.src = 'https://console.dialogflow.com/api-client/demo/embedded/26e44813-1fb1-492f-a8b8-6f745839704e';
+        document.body.appendChild(iframe);
+    }, 6000); // Delay of 5000 milliseconds (5 seconds)
+</script>
+	</div>
+</body>
+</html>
